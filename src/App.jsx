@@ -1,10 +1,17 @@
+import React from 'react'
+import About from './components/About';
+import Nav from './components/Nav';
+import Home from './components/Home';
+
 const App = () => {
+
+  
   return (
     <>
-    <h1>{import.meta.env.VITE_API_KEY}</h1>
-
-    
-      <h1>hello from pata nahi react se</h1>
+   <About/>
+   <Nav/>
+   <Home/>
+   
     </>
 
   );
